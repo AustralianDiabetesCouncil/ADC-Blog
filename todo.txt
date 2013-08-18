@@ -1,0 +1,2 @@
+- Set new menu items on live blog before moving mods
+- bring social share button functionality into theme and ditch jetpack

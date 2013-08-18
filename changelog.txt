@@ -1,0 +1,19 @@
+# Wednesday 24/7/13
+
+- Integrated all custom styles with templates ones
+- removed overides.css file from site
+- remove over 2,200 lines of unused CSS
+- minified CSS reset
+- Begun new header integration
+- Deleted 21 unused template files
+- Removed miscellanious JS
+- Moved CSS, font and JS directories to theme root
+- Deregistered 6 unused javascript files
+- Tweaked background colour and border colours
+
+# Monday 29/7/13
+
+- removed hundreds of lines from includes/theme-actions.php
+- Responsive header tweaks
+- Added respond.js
+- 

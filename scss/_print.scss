@@ -1,0 +1,99 @@
+@media print {
+
+	// global 
+	* {
+		background-color: white;
+	}
+	
+	html, body {
+		color: #000;
+  		background-color: #fff;
+	}
+
+	@page { 
+		margin: 0.5cm; 
+	}
+
+	.print-logo {
+		display: block;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	// header
+	.search, .main-nav-toggle, #secondary-nav, .main-nav-wrap {
+		display: none;
+	}
+
+	.tags, .sharedaddy, .yarpp-related, .post-entries, #post-author, #disqus_thread, #sidebar {
+		display: none;
+	}
+
+	.logo {
+		display: block;
+	}
+
+	// content 
+	#wrapper {
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+	h2, h3, h4, h5 {
+		page-break-after: avoid;
+	}
+
+	ul, ol, img {
+		page-break-inside: avoid;
+	}
+
+	article a {
+		font-weight: bolder;
+		text-decoration: none;
+
+		&[href^=http]:after {
+			content:" <" attr(href) "> ";
+		}
+	}
+
+	.footer-wrap {
+		display: none;
+	}
+	
+	// post specific
+	.single-post {
+
+		.recipe-thumbnail img, .post-thumbnail img {
+			max-width: 30%;
+		}
+
+		// video category specific 
+		.category-videos {
+			.fluid-width-video-wrapper {
+				display: none;
+			}
+		}
+
+		.nocomments {
+			display: none;
+		}
+
+		.recipe-method ol li {
+			background: #fff;
+		}
+
+		.nutritional-info tr:nth-child(2n) {
+			background: #fff;
+		}
+	}
+
+	// archive specific
+	.home, .archive {
+		.mag-item-image a, .mag-item-image .fluid-width-video-wrapper, .pagination {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,78 @@
+.nav-entries {
+  clear: both;
+  font-size: 11px;
+}
+.post-entries {
+  clear: both;
+  margin-top: -20px;
+}
+.post-entries a:link,
+.post-entries a:visited {
+  font-size: 0.9em;
+  color: #888;
+}
+.post-entries a:hover {
+  text-decoration: none;
+  color: #666;
+}
+.woo-pagination {
+  margin: 0 0 2em;
+  text-align: center;
+  clear: both;
+  display: block;
+}
+.woo-pagination a:link,
+.woo-pagination a:visited,
+.nav-entries a span {
+  display: inline;
+  text-decoration: none;
+  color: #666;
+  padding: 3px 7px;
+  border: 1px solid #DDDDDD;
+}
+.nav-entries a {
+  font-size: 1.2em;
+}
+.woo-pagination span.extend,
+.woo-pagination .page-numbers {
+  border: none;
+  color: #666;
+}
+.woo-pagination a:link,
+.woo-pagination a:visited,
+.woo-pagination a:active,
+.nav-entries a span {
+  /* Border Radius */
+
+  font-weight: bold;
+  font-size: 0.9em;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f5f5f5));
+  background: -webkit-linear-gradient(#ffffff, #f5f5f5);
+  background: -moz-linear-gradient(center top, #ffffff 0%, #f5f5f5 100%);
+  background: -moz-gradient(center top, #ffffff 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#f5f5f5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#f5f5f5)";
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03);
+}
+.woo-pagination span.current {
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.woo-pagination a:link,
+.woo-pagination a:visited,
+.woo-pagination a:active {
+  border: none;
+  background: #f0f0f0;
+}
+.woo-pagination .current,
+.woo-pagination a:hover {
+  padding: 3px 7px;
+  background: #e0e0e0;
+}

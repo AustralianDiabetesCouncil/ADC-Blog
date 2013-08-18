@@ -1,0 +1,40 @@
+/*!
+Theme Name: ADC Blog 2
+Theme URI: http://www.australiandiabetescouncil.com/blog
+*/
+
+@import "bits";
+@import "compass/css3";
+
+@import "reset";
+@import "global";
+@import "icons";
+@import "buttons";
+@import "structure";
+@import "pagination";
+
+// Homepage
+@import "blog";
+@import "archive";
+@import "sidebar";
+
+// Single post
+@import "singlepost";
+@import "recipe";
+@import "post";
+
+// Footer 
+@import "footer";
+
+// Header section
+@import "header";
+
+// media queries
+@import "responsive";
+@import "browser";
+
+// header dropdown
+//@import "dropdown";
+
+// Priint Specific
+@import "print";

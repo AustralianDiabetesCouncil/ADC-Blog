@@ -1,0 +1,61 @@
+/* =============================== FROM OLD SHEET */
+
+#wrapper {
+  position: relative;
+}
+#inner-wrapper {
+  position: relative;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 1em;
+  -webkit-transition: left ease 0.5s;
+  -moz-transition: left ease 0.5s;
+  -o-transition: left ease 0.5s;
+  transition: left ease 0.5s;
+}
+/* 2.4 Content */
+#content {
+  padding: 0 0 40px;
+  position: relative;
+}
+/* 2.7 Full Width */
+body.full-width,
+body.full-width #inner-wrapper {
+  padding: 0;
+}
+body.full-width #wrapper {
+  padding: 0;
+  min-width: 100% !important;
+  width: 100%;
+}
+body.full-width #header,
+#nav-container,
+body.full-width #content,
+body.full-width #footer-widgets,
+body.full-width #footer {
+  padding-left: 1.618em;
+  padding-right: 1.618em;
+}
+body.full-width #top {
+  padding: 0;
+  margin: 0;
+}
+body.full-width .nav-toggle {
+  margin: 0;
+}
+
+/* =============================== END FROM OLD SHEET */
+
+#wrapper {
+  border: 1px solid $dark-border;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0 3em 1em;
+    padding-top: 40px;
+  }
+}

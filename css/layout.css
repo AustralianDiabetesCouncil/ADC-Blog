@@ -1,0 +1,288 @@
+/*
+The styles in this stylesheet only apply to resolutions 768px and up
+
+CALCULATING DIMENSIONS:
+----------------------
+The layout is fluid. The sote wrapper (.col-full) has a fixed pixel max-width.
+All subsequent dimensions are calculated based on that fixed pixel width, using the formula: target / context = result
+Credit - http://www.alistapart.com/articles/fluidgrids/
+
+-----
+INDEX
+-----
+
+1. Global dropdown styles
+2. Top Navigation
+3. Main navigation dropdown menus
+4. General layout related tweaks
+
+*/
+/* Tablet Portrait size and sizes above 768 (devices and browsers) */
+@media only screen and (min-width: 768px) {
+  /* 1. GLOBAL DROPDOWN STYLES (these are purely for the dropdown layout and you should only edit the width of the dropdowns) */
+  ul.nav {
+    position: relative;
+    margin-bottom: 0;
+    width: auto;
+    margin-right: 30px;
+  }
+  ul.nav li {
+    position: relative;
+    float: left;
+    zoom: 1;
+    list-style: none;
+  }
+  ul.nav li a {
+    display: block;
+    padding-top: 1em!important;
+    padding-bottom: 1em!important;
+  }
+  ul.nav li a:hover {
+    text-decoration: none;
+  }
+  ul.nav li ul li a:hover {
+    text-decoration: underline;
+  }
+  ul.nav ul {
+    width: 12em;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    margin: 0;
+    padding: 0.4em 0;
+  }
+  ul.nav ul li {
+    float: none;
+  }
+  ul.nav ul li a {
+    width: 100%;
+    display: inline-block;
+    padding: 0.7em 1em!important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.9em;
+  }
+  ul.nav ul ul {
+    left: 100%;
+    top: 0;
+  }
+  ul.nav li:hover > ul {
+    visibility: visible;
+  }
+  /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
+  #top {
+    background: #000;
+  }
+  #top h3 {
+    display: none;
+  }
+  #top {
+    display: block!important;
+  }
+  #top ul.nav li a {
+    color: #ddd;
+    padding-top: 0.5em!important;
+    padding-bottom: 0.5em!important;
+    font-size: 1em;
+  }
+  #top ul.nav > li a:hover {
+    background: #555;
+    color: #ddd;
+  }
+  #top ul.nav > li:hover {
+    background: #555;
+    color: #ddd;
+  }
+  #top ul.nav ul {
+    background: #555;
+  }
+  #top ul.nav ul li a {
+    color: #ddd!important;
+  }
+  #top ul.nav li.current_page_item a,
+  #top ul.nav li.current_page_parent a,
+  #top ul.nav li.current-menu-ancestor a,
+  #top ul.nav li.current-cat a,
+  #top ul.nav li.current-menu-item a {
+    color: #333;
+  }
+  /* 3. MAIN NAVIGATION DROPDOWN MENUS (Add main navigation presentational styles here) */
+  #navigation .top-navigation {
+    display: none !important;
+  }
+  .csstransforms3d.csstransitions #navigation,
+  .csstransforms3d.csstransitions .show-nav #navigation,
+  .csstransforms3d.csstransitions .show-nav #inner-wrapper {
+    left: 0;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -moz-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+  }
+  .nav-toggle,
+  .nav-close,
+  .nav-home {
+    display: none !important;
+  }
+  /* 4. GENERAL LAYOUT RELATED TWEAKS */
+  /* Header */
+  #logo {
+    float: left;
+  }
+  #topad {
+    float: right;
+    margin: 0;
+  }
+  #nav-container {
+    margin-bottom: 3em;
+  }
+  .magazine .block {
+    float: left;
+    width: 48%;
+  }
+  .magazine .block.last {
+    float: right;
+  }
+  #inner-wrapper {
+    padding: 0;
+  }
+  /* Sliders */
+  #loopedSlider .content {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    background: none;
+  }
+  #loopedSlider .content h2 {
+    float: left;
+    font-size: 26px;
+  }
+  #loopedSlider .content p {
+    clear: both;
+    float: left;
+  }
+  #loopedSlider .content p,
+  #loopedSlider .content h2 {
+    background: #000000;
+    background: rgba(0, 0, 0, 0.7);
+    max-width: 350px;
+  }
+  /* 	Widgets */
+  #main .widget_woothemes_features .feature {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  #main .widget_woothemes_features .feature.last {
+    margin-right: 0;
+  }
+  #main .widget_woothemes_testimonials .quote {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  #main .widget_woothemes_testimonials .quote.last {
+    margin-right: 0;
+  }
+  /* Footer */
+  #footer-widgets .block {
+    margin-right: 3.8%;
+    float: left;
+  }
+  /* 210 / 940 */
+  #footer-widgets.col-1 .block {
+    width: 100%;
+    margin-right: 0;
+  }
+  #footer-widgets.col-2 .block {
+    width: 48%;
+  }
+  #footer-widgets.col-3 .block {
+    width: 30.75%;
+  }
+  #footer-widgets.col-4 .block {
+    width: 22.05%;
+  }
+  #footer-widgets.col-2 .footer-widget-2,
+  #footer-widgets.col-3 .footer-widget-3,
+  #footer-widgets.col-4 .footer-widget-4 {
+    margin-right: 0;
+  }
+  /* Column Widths */
+  .one-col #main {
+    float: none;
+  }
+
+  /* Contact Page */
+  .page-template-template-contact-php .location-twitter .col-left {
+    float: left;
+  }
+  .page-template-template-contact-php .location-twitter #office-location {
+    width: 48%;
+    margin: 0 1em 0 0;
+  }
+  .page-template-template-contact-php .location-twitter .contact-social {
+    float: left;
+    width: 48%;
+  }
+  .page-template-template-contact-php .location-twitter .contact-social #twitter {
+    margin: 0;
+  }
+  /* Subcribe & Connect */
+  #main #connect .col-left {
+    float: left;
+  }
+  #connect .col-right {
+    float: right;
+  }
+  #main #connect .col-left,
+  #connect .col-right {
+    width: 48%;
+  }
+  #connect .related-posts {
+    border-top: 0;
+    border-left: 1px solid #e6e6e6;
+    padding-top: 0;
+    padding-left: 15px;
+    margin-top: 0;
+  }
+  .ie8 .business #loopedSlider a.flex-prev {
+    left: -20px;
+  }
+  .ie8 .business #loopedSlider a.flex-prev:before,
+  .ie8 .business #loopedSlider a.flex-next:before {
+    font-size: 16px;
+  }
+  .ie8 .business #loopedSlider a.flex-next {
+    right: -30px;
+  }
+  /* Portfolio layout */
+  body.single-portfolio.one-col #post-gallery,
+  body.single-portfolio.one-col .post-embed {
+    width: 57%;
+  }
+  body.single-portfolio.one-col-980 #post-gallery,
+  body.single-portfolio.one-col-980 .post-embed {
+    width: 57%;
+  }
+  body.single-portfolio.one-col-960 #post-gallery,
+  body.single-portfolio.one-col-960 .post-embed {
+    width: 57%;
+  }
+  body.single-portfolio.one-col-940 #post-gallery,
+  body.single-portfolio.one-col-940 .post-embed {
+    width: 55%;
+  }
+  body.single-portfolio.one-col-880 #post-gallery,
+  body.single-portfolio.one-col-880 .post-embed {
+    width: 55%;
+  }
+  body.single-portfolio.one-col-760 #post-gallery,
+  body.single-portfolio.one-col-760 .post-embed {
+    width: 45%;
+  }
+}

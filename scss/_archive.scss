@@ -1,0 +1,41 @@
+/* =============================== FROM OLD SHEET */
+
+/* 3.4 Single Post Author */
+#post-author {
+  padding: 15px;
+  margin: 0 0 1.5em;
+  border: 1px solid $border;
+  background: #fafafa;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#post-author h4 {
+  margin-bottom: 0.4em;
+}
+#post-author .profile-image img {
+  float: left;
+  margin: 0 15px 5px 0;
+  padding: 0;
+  border: none;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+}
+#post-author .profile-content {
+  font-size: 13px;
+}
+.author #post-author {
+  margin-bottom: 30px;
+}
+
+/* =============================== END FROM OLD SHEET */
+
+.archive .block {
+    float: left;
+    width: 48%;
+  
+  &.last {
+    float: right;
+  }
+}

@@ -1,0 +1,88 @@
+/* 1.3 @font-face 
+- Used for the subscribe & connect social icons. If you would like to add more icons to the font, you can do so by rebuilding the font at http://keyamoon.com/icomoon/app/ and replace the existing font files in the theme with the new ones.
+*/
+@font-face {
+  font-family: 'Social';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/social.eot');
+  src: url('fonts/social.eot?#iefix') format('embedded-opentype'), url('fonts/social.woff') format('woff'), url('fonts/social.ttf') format('truetype'), url('fonts/social.svg#woo-social') format('svg');
+}
+/* Sliders */
+.feedback .flex-prev:before,
+.feedback .flex-next:before {
+  font-family: "FontAwesome";
+}
+a.flex-prev:before,
+#post-gallery .pagination .jcarousel-prev:before {
+  font-family: "FontAwesome";
+  content: "\f053";
+}
+a.flex-next:before,
+#post-gallery .pagination .jcarousel-next:after {
+  font-family: "FontAwesome";
+  content: "\f054";
+}
+a.flex-prev:before,
+a.flex-next:before,
+#post-gallery .pagination .jcarousel-prev:before,
+#post-gallery .pagination .jcarousel-next:after {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  font-size: 24px;
+  color: #666;
+  color: rgba(0, 0, 0, 0.6);
+}
+a.flex-prev:hover:before,
+a.flex-next:hover:before,
+#post-gallery .pagination .jcarousel-prev:hover:before,
+#post-gallery .pagination .jcarousel-next:hover:after {
+  color: #222;
+}
+
+@font-face {
+  font-family: 'adc-icon';
+  src:url('fonts/adc-icon.eot');
+  src:url('fonts/adc-icon.eot?#iefix') format('embedded-opentype'),
+    url('fonts/adc-icon.woff') format('woff'),
+    url('fonts/adc-icon.ttf') format('truetype'),
+    url('fonts/adc-icon.svg#adc-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-menuicon]:before {
+  font-family: 'adc-icon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.menuicon-menu, .menuicon-list {
+  font-family: 'adc-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.menuicon-menu:before {
+  content: "\4d";
+}
+.menuicon-list:before {
+  content: "\6d";
+}

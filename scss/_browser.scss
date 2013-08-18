@@ -1,0 +1,101 @@
+/*-------------------------------------------------------------------------------------------*/
+/* 10. BROWSER SPECIFIC */
+/*-------------------------------------------------------------------------------------------*/
+/* IE8 */
+.ie8 .button,
+.ie8 .button:visited {
+  padding: 10px 15px;
+  margin: 0;
+}
+.ie8 .alignleft,
+.ie8 .alignright {
+  width: auto;
+}
+.ie8 .widget_woo_blogauthorinfo .avatar {
+  width: auto;
+}
+@media only screen and (max-width: 1200px) {
+  .business #loopedSlider a.flex-prev {
+    left: -25px;
+  }
+  .business #loopedSlider a.flex-prev:before,
+  .business #loopedSlider a.flex-next:before {
+    font-size: 16px;
+  }
+  .business #loopedSlider a.flex-next {
+    right: -30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #wrapper {
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+  #content {
+    padding-top: 1.5em;
+  }
+  #header {
+    background-size: cover;
+  }
+  #navigation .cart {
+    margin: 0;
+  }
+  #navigation ul.nav ul.children {
+    margin-left: 1.5em;
+  }
+  #navigation {
+    font-weight: 400;
+  }
+  #nav-container {
+    border-width: 0 !important;
+  }
+  ul.nav,
+  ul.nav ul {
+    border: none!important;
+  }
+  #navigation ul.nav > li {
+    border-right: none!important;
+  }
+  body.boxed-layout {
+    padding: 0;
+  }
+  body.boxed-layout #top {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+  body.boxed-layout #wrapper {
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+  }
+  .magazine #loopedSlider a.flex-next,
+  .magazine #loopedSlider a.flex-prev {
+    bottom: auto;
+    top: 20px;
+  }
+  .magazine #loopedSlider {
+    height: auto !important;
+    max-height: none !important;
+  }
+  #loopedSlider {
+    height: auto !important;
+  }
+  #loopedSlider .slides {
+    overflow: visible;
+    height: auto !important;
+  }
+  #sidebar {
+    clear: both;
+    max-width: 100%;
+  }
+  /* Set single portfolio item from two to one column on mobile */
+  body.single-portfolio.one-col-980 #post-gallery,
+  body.single-portfolio.one-col-980 .post-embed {
+    width: 100%;
+    float: none;
+  }
+  body.single-portfolio .hentry {
+    float: none;
+    width: 100%;
+  }
+}

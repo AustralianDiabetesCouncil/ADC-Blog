@@ -1,0 +1,76 @@
+/* =============================== FROM OLD SHEET */
+
+#footer {
+  padding: 20px 0;
+  color: #999;
+}
+#footer #credit img {
+  vertical-align: middle;
+}
+#footer #credit span {
+  display: none;
+}
+#footer .col-left {
+  margin-bottom: 10px;
+}
+
+/* =============================== END FROM OLD SHEET */
+
+.footer-wrap {
+	background: $primary;
+}
+
+#footer {
+	color: white;
+	margin: 0 auto;
+
+	a {
+		color: white;
+		font-size: 13px;
+	}
+
+	@media only screen and (max-width: 1409px) and (min-width: 1080px) {
+		width: 940px;
+	}
+
+	@media only screen and (max-width: 1079px) and (min-width: 768px) {
+		width: 620px;
+	}
+}
+
+#footer-widgets {
+	border-top: none;
+
+	.footerCMSListMenuUL {
+		list-style-type: none;
+	}
+
+	.widget_nav_menu {
+		h3 {
+			color: white;
+		}
+
+		ul {
+			margin-left: 0;
+		}
+	}
+}
+
+.footerCMSListMenuUL{
+  list-style: none;
+  margin:0px;
+  margin-bottom: 10px;
+}
+
+.footerCMSListMenuUL > li {
+  float:left;
+  padding-right:30px;
+ }
+
+.footerCMSListMenuUL > li.last {
+	padding-right: 0;
+}
+
+.get-social-icons{
+  float:right;
+}

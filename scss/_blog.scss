@@ -1,0 +1,66 @@
+.post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {
+	color: #0088b2;
+}
+
+.home .post, .archive .post {
+	//background: #f7f7f7;
+	border: 1px solid $border;
+	@include box-sizing(border-box);
+
+	.mag-item-image {
+		margin-bottom: 20px;
+		max-height: 258px;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.title {
+		font: normal bold 21px/1.2em "Helvetica Neue", Helvetica, Arial sans-serif;
+	}
+
+	header, .entry {
+		padding: 0 20px;
+	}
+
+	.entry {
+		margin-bottom: 20px;
+	}
+
+	.post-cat {
+		padding-left: 20px;
+		text-transform: uppercase;
+		font-weight: 700;
+		display: block;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+	.post-meta {
+		padding: 10px 0;
+		margin-bottom: 0;
+		border-top: 1px solid $border;
+		position: relative;
+		overflow: hidden;
+
+		.author {
+			position: relative;
+			float: left;
+			padding-left: 20px;
+
+			a {
+				color: #555;
+				font-size: 12px;
+			}
+		}
+
+		.date {
+			position: relative;
+			font-size: 12px;
+			float: right;
+			padding-right: 20px;
+		}
+	}
+}

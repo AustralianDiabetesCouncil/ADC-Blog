@@ -1,0 +1,116 @@
+@import "compass/css3";
+
+// PDFs
+.gsc-results-wrapper-nooverlay {
+	a[href*="australiandiabetescouncil.com/ADCCorporateSite/"] {
+		&:before {
+			content: 'PDF';
+			position: relative;
+			left: 0;
+			margin-right: 10px;
+			background: #0088b2;
+			padding: 10px;
+			color: white;
+			text-decoration: none!important;
+			padding: 4px 10px 4px;
+			top: -2px;
+			font-size: 10px;
+		}
+	}
+
+	// Blog 
+	a[href*="australiandiabetescouncil.com/blog"] {
+		&:before {
+			content: 'ARTICLE';
+			position: relative;
+			left: 0;
+			margin-right: 10px;
+			background: #0088b2;
+			padding: 10px;
+			color: white;
+			text-decoration: none!important;
+			padding: 4px 10px 4px;
+			top: -2px;
+			font-size: 10px;
+		}
+	}
+
+	// Shop
+	a[href*="shop.australiandiabetescouncil.com"] {
+		&:before {
+			content: 'PRODUCT';
+			position: relative;
+			left: 0;
+			margin-right: 10px;
+			background: #0088b2;
+			padding: 10px;
+			color: white;
+			text-decoration: none!important;
+			padding: 4px 10px 4px;
+			top: -2px;
+			font-size: 10px;
+		}
+	}
+}
+
+.gs-image-box a[href*="shop.australiandiabetescouncil.com"] {
+
+	&:before {
+		content: '';
+		background: transparent;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top {
+	padding-left: 0!important;
+}
+
+.gs-title {
+	color: #0088b2!important;
+	text-decoration: none!important;
+	font-size: 18px!important;
+	margin-bottom: 4px;
+}
+
+.gs-title b {
+	color: #0088b2!important;
+	font-size: 18px!important;
+}
+
+.gs-bidi-start-align.gs-visibleUrl.gs-visibleUrl-long {
+	color: #999!important;
+}
+
+// No Results 
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+	font-size: 18px!important;
+	padding: 10px!important;
+
+	&:before {
+		content: 'Sorry ';
+	}
+
+	&:after {
+		content: ' Found. Please Try Searching Something Else.';
+	}
+}
+
+// Pagination
+.gsc-results .gsc-cursor-box {
+	margin: 15px 10px 10px 0!important;
+}
+
+.gsc-cursor-page {
+	@include box-shadow(0 2px 2px 0 rgba(0,0,0,0.03));
+	@include border-radius(3px);
+	padding: 7px!important;
+	background: #f0f0f0!important;
+	color: #666!important;
+}
+
+.gs-image:before {
+	content: '';
+	display: none;
+}
