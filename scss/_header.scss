@@ -70,10 +70,10 @@
 		background-position: 0 center;
 
 		@media all and (min-width: 1080px) {
-			height: 140px;
-			width: 105px;
+			height: 162px;
+			width: 120px;
 			background-color: transparent;
-			background-image: url(images/logo-desktop.png);
+			background-image: url(images/logo-desktop-120.png);
 			background-position: center;
 		}
 
@@ -100,7 +100,7 @@
     	.logo a {
 			background-image: url(images/logo-desktop-2x.png);
 			background-position: center;
-			background-size: 105px auto;
+			background-size: 120px 162px;
 		}
     }
 }
@@ -135,7 +135,7 @@ form {
 		float: left;
 		position: relative;
 		max-width: 510px;
-		margin: 18px 25px 0 133px;
+		margin: 18px 25px 0 153px;
 		zoom: 1;
 	}
 
@@ -472,7 +472,7 @@ form {
 
 	@media all and (min-width: 1080px) {
 		li:first-child {
-			margin-left: 120px;
+			margin-left: 140px;
 		}
 	}
 
