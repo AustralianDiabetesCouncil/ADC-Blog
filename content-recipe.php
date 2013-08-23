@@ -44,9 +44,21 @@
 		<div class="recipe-content">
 			<div class="recipe-thumbnail">
 				<?php the_post_thumbnail('recipe'); ?>
+				<?php if ( get_field('image_credit') ) { ?>
+					<small><?php the_field('image_credit'); ?></small>
+				<?php } ?>
 			</div>
 			<div class="recipe-ingredients">
-				<?php if ( get_field('servings') ) : ?><p><strong>Serves: </strong><?php the_field('servings'); ?><?php endif; ?><?php if ( get_field(preparation_time) ) : ?><br><strong>Preparation Time: </strong><?php the_field('preparation_time'); ?> minutes</p><?php endif; ?>
+				<?php if ( get_field('servings') ) : ?>
+					<p><strong>Serves: </strong><?php the_field('servings'); ?>
+				<?php endif; ?>
+				<?php if ( get_field(preparation_time) ) : ?>
+					<br><strong>Preparation Time: </strong><?php the_field('preparation_time'); ?> minutes</p>
+				<?php endif; ?>
+				<?php if ( get_field(cooking_time) ) : ?>
+					<br><strong>Cooking Time: </strong><?php the_field('cooking_time'); ?> minutes</p>
+				<?php endif; ?>
+
 				<h2>Ingredients</h2>
 				<?php if ( get_field('ingredients_list_1_name') ) { ?>
 					<strong><?php the_field('ingredients_list_1_name') ?></strong>
@@ -199,6 +211,11 @@
 
 			    	</tbody></table>
 			</div>
+
+			<?php if ( get_field('image_credit') ) { ?>
+				<p class="recipe-disclaimer"><?php the_field('recipe_disclaimer'); ?></p>
+			<?php } ?>
+
 		</div>
 		<?php the_content(); ?>
 	</section><!-- /.entry -->
