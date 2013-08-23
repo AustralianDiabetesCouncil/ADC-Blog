@@ -189,17 +189,17 @@
 
 			    	$field = get_field('vitamin_a');
 			    	if ( $field ) {
-			    		echo '<tr><td>Vitamin A (%)</td><td>' . $field . '</td></tr>';
+			    		echo '<tr><td>Vitamin A (mg)</td><td>' . $field . '</td></tr>';
 			    	};
 
 			    	$field = get_field('vitamin_c');
 			    	if ( $field ) {
-			    		echo '<tr><td>Vitamin C (%)</td><td>' . $field . '</td></tr>';
+			    		echo '<tr><td>Vitamin C (mg)</td><td>' . $field . '</td></tr>';
 			    	};
 
 			    	$field = get_field('iron');
 			    	if ( $field ) {
-			    		echo '<tr><td>Iron (%)</td><td>' . $field . '</td></tr>';
+			    		echo '<tr><td>Iron (mg)</td><td>' . $field . '</td></tr>';
 			    	};
 
 			    	$field = get_field('calcium');
