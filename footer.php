@@ -22,16 +22,16 @@
 				<h3>About</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="#">Overview</a></li>
-						<li><a href="#">The Clear Strategy</a></li>
-						<li><a href="#">Executive Team, Board, and Committees</a></li>
-						<li><a href="#">Advocacy</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Annual Reports</a></li>
-						<li><a href="#">Life for a Child</a></li>
-						<li><a href="#">ATSI Charter of Engagement</a></li>
-						<li><a href="#">Awards</a></li>
-						<li><a href="#">Publications</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about-us/overview.aspx">Overview</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/clear-strategy">The Clear Strategy</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/our-board-and-committees">Executive Team, Board, and Committees</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/advocacy-support">Advocacy</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/research">Research</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/annual-reports">Annual Reports</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/idf-life-for-a-child-program">Life for a Child</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/charter-of-engagement-for-working-with-aboriginal">ATSI Charter of Engagement</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/our-awards">Awards</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/publications-(1)">Publications</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -39,13 +39,13 @@
 				<h3>Service</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="#">Volunteers</a></li>
-						<li><a href="#">Donations</a></li>
-						<li><a href="#">Membership</a></li>
-						<li><a href="#">Bequests</a></li>
-						<li><a href="#">Fundraising</a></li>
-						<li><a href="#">Regular Giving</a></li>
-						<li><a href="#">Sponsor</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/volunteer">Volunteers</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donations</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/membership/become-a-member">Membership</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/membership/benefits-of-membership">Bequests</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/fundraising">Fundraising</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/regular-giving">Regular Giving</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/become-a-sponsor">Sponsor</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -53,13 +53,13 @@
 				<h3>Support Us</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="#">Volunteers</a></li>
-						<li><a href="#">Donations</a></li>
-						<li><a href="#">Membership</a></li>
-						<li><a href="#">Bequests</a></li>
-						<li><a href="#">Fundraising</a></li>
-						<li><a href="#">Regular Giving</a></li>
-						<li><a href="#">Sponsor</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/volunteer">Volunteers</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donations</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/membership/become-a-member">Membership</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/membership/benefits-of-membership">Bequests</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/fundraising">Fundraising</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/regular-giving">Regular Giving</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/become-a-sponsor">Sponsor</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -67,10 +67,10 @@
 				<h3>Media</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="#">News</a></li>
-						<li><a href="#">Press Releases</a></li>
-						<li><a href="#">Position Statements</a></li>
-						<li><a href="#">Events</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/media/news">News</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/media/media-releases">Press Releases</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/resources/position-statements">Position Statements</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/events">Events</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -78,12 +78,12 @@
 				<h3>Connect With Us</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">LinkedIn</a></li>
-						<li><a href="#">YouTube</a></li>
-						<li><a href="#">Soundcloud</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/contact">Contact Us</a></li>
+						<li class="social-link"><div class="fb-like" data-href="http://www.facebook.com/australiandiabetescouncil" data-width="170" data-layout="button_count" data-show-faces="false" data-send="false"></div></li>
+						<li class="social-link"><a href="https://twitter.com/asharedvoice" class="twitter-follow-button" data-show-count="false">Follow @asharedvoice</a></li>
+						<li class="social-link"><script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script><script type="IN/FollowCompany" data-id="1786754" data-counter="right"></script></li>
+						<li class="social-link youtube"><div class="g-ytsubscribe" data-channel="ausdiabetescouncil" data-layout="default"></div></li>
+						<li><a href="https://soundcloud.com/australiandiabetescouncil">Soundcloud</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -111,9 +111,19 @@
 
 <?php wp_footer(); ?>
 <?php woo_foot(); ?>
+
+<!-- social icon scripts -->
+<div id="fb-root"></div>
 <script>
-	jQuery('a[title="back_adc"]').parent().addClass("pull-right");
-	jQuery('#mc-embedded-subscribe').addClass('btn');
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=532404886825430";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
 </script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script src="https://apis.google.com/js/plusone.js"></script>
 </body>
 </html>

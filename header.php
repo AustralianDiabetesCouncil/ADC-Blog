@@ -52,6 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<li><a href="https://australiandiabetescouncil.wufoo.com/forms/w7x3k1/">Become a Member</a></li>
 					<li><a href="https://australiandiabetescouncil.wufoo.com/forms/z7x3w1/">Renew Membership</a></li>
 					<li><a href="https://australiandiabetescouncil.wufoo.com/forms/z7x3s5/">Change Membership Details</a></li>
+					<li><a href="http://www.australiandiabetescouncil.com/membership/fees">Membership Fees</a></li>
 				</ul>
 			</div><!-- btn-group -->
 			<a href="<?php the_field('donate_link', 'option'); ?>" target="_blank" class="btn btn-success">Donate</a>
