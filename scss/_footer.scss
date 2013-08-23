@@ -1,21 +1,3 @@
-/* =============================== FROM OLD SHEET */
-
-#footer {
-  padding: 20px 0;
-  color: #999;
-}
-#footer #credit img {
-  vertical-align: middle;
-}
-#footer #credit span {
-  display: none;
-}
-#footer .col-left {
-  margin-bottom: 10px;
-}
-
-/* =============================== END FROM OLD SHEET */
-
 .footer-wrap {
 	background: $primary;
 }
@@ -23,8 +5,9 @@
 #footer {
 	color: white;
 	margin: 0 auto;
+	padding: 20px 0;
 
-	a {
+	a, p {
 		color: white;
 		font-size: 13px;
 	}
@@ -38,39 +21,96 @@
 	}
 }
 
-#footer-widgets {
-	border-top: none;
+#footer-blocks {
+	position: relative;
+	overflow: hidden;
+}
 
-	.footerCMSListMenuUL {
-		list-style-type: none;
+.footer-block {
+	width: 16.6666666666%;
+	position: relative;
+	float: left;
+	@include box-sizing(border-box);
+	padding-right: 20px;
+	padding-bottom: 20px;
+	color: white;
+	margin: 0 auto;
+
+	&.last {
+		padding-right: 0;
+		text-align: center;
 	}
 
-	.widget_nav_menu {
-		h3 {
-			color: white;
+	@media all and (max-width: 1079px) {
+		width: 33.333333333%;
+
+		&:nth-child(4) {
+			clear: both;
+		}
+	}
+
+	@media all and (max-width: 600px) {
+		width: 50%;
+		
+		&:nth-child(4) {
+			clear: none;
 		}
 
-		ul {
-			margin-left: 0;
+		&:nth-child(odd) {
+			clear: both;
+		}
+	}
+
+	@media all and (max-width: 480px) {
+		width: 100%;
+	}
+}
+
+.footer-block {
+
+	h3 {
+		margin: 0 0 0.8em 0;
+		padding: 0 0 0.8em;
+		font: normal bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		border-bottom: 1px solid #dedede;
+		color: white;
+
+		@media all and (max-width: 480px) {
+			text-align: center;
+		}
+	}
+
+	img {
+		max-width: 120px;
+	}
+
+	ul {
+		list-style: square;
+		padding-left: 16px;
+
+		li {
+
 		}
 	}
 }
 
-.footerCMSListMenuUL{
-  list-style: none;
-  margin:0px;
-  margin-bottom: 10px;
-}
+.conditions {
 
-.footerCMSListMenuUL > li {
-  float:left;
-  padding-right:30px;
- }
+	a {
+		padding-right: 20px;
+		position: relative;
+		text-decoration: underline;
 
-.footerCMSListMenuUL > li.last {
-	padding-right: 0;
-}
+		&:after {
+			content: '|';
+			position: absolute;
+			right: 7px;
+			top: -3px;
+		}
 
-.get-social-icons{
-  float:right;
+		&:last-child:after {
+			content: '';
+			padding-right: 0;
+		}
+	}
 }
