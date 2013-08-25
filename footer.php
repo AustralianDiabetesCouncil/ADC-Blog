@@ -83,7 +83,8 @@
 						<li class="social-link"><a href="https://twitter.com/asharedvoice" class="twitter-follow-button" data-show-count="false">Follow @asharedvoice</a></li>
 						<li class="social-link"><script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script><script type="IN/FollowCompany" data-id="1786754" data-counter="right"></script></li>
 						<li class="social-link youtube"><div class="g-ytsubscribe" data-channel="ausdiabetescouncil" data-layout="default"></div></li>
-						<li><a href="https://soundcloud.com/australiandiabetescouncil">Soundcloud</a></li>
+						<li class="social-link"><a href="https://soundcloud.com/australiandiabetescouncil"><img src="<?php echo get_template_directory_uri() ?>/images/soundcloud.png" alt="Connect on Soundcloud"></a></li>
+						<li class="social-link"><a data-pin-do="buttonFollow" href="http://pinterest.com/ausdco/">Pinterest</a></li>					
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -125,5 +126,6 @@
 </script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <script src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 </body>
 </html>

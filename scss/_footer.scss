@@ -70,9 +70,11 @@
 
 	h3 {
 		margin: 0 0 8px 0;
-		font: normal bold 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: normal bold 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
 		letter-spacing: 1px;
 		color: white;
+		padding: 0 0 8px;
+		border-bottom: 1px solid #dedede;
 
 		@media all and (max-width: 480px) {
 			text-align: center;
@@ -80,18 +82,20 @@
 	}
 
 	img {
-		max-width: 120px;
+		max-width: 150px;
 	}
 
 	ul {
-		list-style: square;
-		padding-left: 16px;
+		//list-style: square;
+		list-style: none;
+		//padding-left: 16px;
+		padding-left: 0;
 
 		li {
 
 			&.social-link {
 				list-style: none;
-				margin-left: -16px;
+				//margin-left: -16px;
 				padding: 5px 0;
 
 				&.youtube {
