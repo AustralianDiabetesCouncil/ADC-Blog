@@ -38,7 +38,11 @@
 
 	&.last {
 		padding-right: 0;
-		text-align: center;
+		text-align: right;
+
+		@media all and (max-width: 1079px) {
+			text-align: center;
+		}
 	}
 
 	@media all and (max-width: 1079px) {

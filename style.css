@@ -1538,7 +1538,10 @@ img.aligncenter {
   margin: 0 auto; }
   .footer-block.last {
     padding-right: 0;
-    text-align: center; }
+    text-align: right; }
+    @media all and (max-width: 1079px) {
+      .footer-block.last {
+        text-align: center; } }
   @media all and (max-width: 1079px) {
     .footer-block {
       width: 33.333333333%; }

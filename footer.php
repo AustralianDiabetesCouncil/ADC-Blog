@@ -89,7 +89,7 @@
 				</div>
 			</div><!-- footer-widget-block -->
 			<div class="footer-block last">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/a-shared-voice-2x.png" alt="A Shared Voice">
+				<img class="shared-voice" src="<?php echo get_template_directory_uri(); ?>/images/a-shared-voice-2x.png" alt="A Shared Voice">
 			</div><!-- footer-widget-block -->
         	<div class="fix"></div>
 		</section>
