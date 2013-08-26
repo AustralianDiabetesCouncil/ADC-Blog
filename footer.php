@@ -23,15 +23,10 @@
 				<div class="footer-menu">
 					<ul class="menu">
 						<li><a href="http://www.australiandiabetescouncil.com/about-us/overview.aspx">Overview</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/about/clear-strategy">The Clear Strategy</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/clear-strategy">The CLEAR Strategy</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/our-vision,-mission-and-values">Vision, Mission and Values</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/our-board-and-committees">Executive Team, Board, and Committees</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/about/advocacy-support">Advocacy</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/about/research">Research</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/annual-reports">Annual Reports</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/about/idf-life-for-a-child-program">Life for a Child</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/about/charter-of-engagement-for-working-with-aboriginal">ATSI Charter of Engagement</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/about/our-awards">Awards</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/publications-(1)">Publications</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -39,13 +34,13 @@
 				<h3>Service</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="http://www.australiandiabetescouncil.com/volunteer">Volunteers</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donations</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/membership/become-a-member">Membership</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/membership/benefits-of-membership">Bequests</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/fundraising">Fundraising</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/regular-giving">Regular Giving</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/become-a-sponsor">Sponsor</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/what-we-do">What We Do</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/ndss">NDSS</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/advocacy-support">Advocacy &amp; Support</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/charter-of-engagement-for-working-with-aboriginal">ATSI Charter of Engagement</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/research">Research</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/idf-life-for-a-child-program">IDF Life for a Child</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/our-awards">Awards</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -53,10 +48,11 @@
 				<h3>Support Us</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="http://www.australiandiabetescouncil.com/volunteer">Volunteers</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donations</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/membership/become-a-member">Membership</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/membership/benefits-of-membership">Bequests</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donate</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/membership/become-a-member">Become a Member</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/volunteer">Volunteer</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/making-a-bequest">Make a Bequest</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/in-memory-donations">In Memory Donations</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/fundraising">Fundraising</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/regular-giving">Regular Giving</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/become-a-sponsor">Sponsor</a></li>
