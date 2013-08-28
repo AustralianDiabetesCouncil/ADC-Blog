@@ -1539,6 +1539,9 @@ img.aligncenter {
   .footer-block.last {
     padding-right: 0;
     text-align: right; }
+    .footer-block.last p {
+      text-align: center;
+      margin-top: 16px; }
     @media all and (max-width: 1079px) {
       .footer-block.last {
         text-align: center; } }
@@ -1571,10 +1574,11 @@ img.aligncenter {
 .footer-block img {
   max-width: 150px; }
 .footer-block ul {
-  list-style: none;
-  padding-left: 0; }
+  list-style: square;
+  padding-left: 16px; }
   .footer-block ul li.social-link {
     list-style: none;
+    margin-left: -16px;
     padding: 5px 0; }
     .footer-block ul li.social-link.youtube {
       padding: 0; }

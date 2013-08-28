@@ -31,13 +31,13 @@
 				</div>
 			</div><!-- footer-widget-block -->
 			<div class="footer-block">
-				<h3>Service</h3>
+				<h3>Services</h3>
 				<div class="footer-menu">
 					<ul class="menu">
 						<li><a href="http://www.australiandiabetescouncil.com/about/what-we-do">What We Do</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/ndss">NDSS</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/advocacy-support">Advocacy &amp; Support</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/about/charter-of-engagement-for-working-with-aboriginal">ATSI Charter of Engagement</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/about/charter-of-engagement-for-working-with-aboriginal">Working With Aboriginal People</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/research">Research</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/idf-life-for-a-child-program">IDF Life for a Child</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/our-awards">Awards</a></li>
@@ -48,14 +48,12 @@
 				<h3>Support Us</h3>
 				<div class="footer-menu">
 					<ul class="menu">
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donate</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/membership/become-a-member">Become a Member</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/volunteer">Volunteer</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/making-a-bequest">Make a Bequest</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/in-memory-donations">In Memory Donations</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/fundraising">Fundraising</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/regular-giving">Regular Giving</a></li>
-						<li><a href="http://www.australiandiabetescouncil.com/fundraising/become-a-sponsor">Sponsor</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donate Today</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/making-a-bequest">Leave a Bequest</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/in-memory-donations">Give a Gift in Memory</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/fundraising">Fundraise for Us</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/regular-giving">Give a Regular Gift</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/fundraising/become-a-sponsor">Become a Sponsor</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -67,6 +65,8 @@
 						<li><a href="http://www.australiandiabetescouncil.com/media/media-releases">Press Releases</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/resources/position-statements">Position Statements</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/events">Events</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/media/daw-202013">Diabetes Awareness Week</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/buzzday">Buzz Day</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
@@ -86,6 +86,7 @@
 			</div><!-- footer-widget-block -->
 			<div class="footer-block last">
 				<img class="shared-voice" src="<?php echo get_template_directory_uri(); ?>/images/a-shared-voice-2x.png" alt="A Shared Voice">
+				<p>Call: 1300 342 238</p>
 			</div><!-- footer-widget-block -->
         	<div class="fix"></div>
 		</section>
