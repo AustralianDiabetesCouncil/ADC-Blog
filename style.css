@@ -1542,6 +1542,9 @@ img.aligncenter {
     .footer-block.last p {
       text-align: center;
       margin-top: 16px; }
+    .footer-block.last img {
+      height: 111px;
+      width: 150px; }
     @media all and (max-width: 1079px) {
       .footer-block.last {
         text-align: center; } }
