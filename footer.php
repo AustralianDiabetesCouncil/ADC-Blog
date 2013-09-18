@@ -54,6 +54,7 @@
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/fundraising">Fundraise for Us</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/regular-giving">Give a Regular Gift</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/become-a-sponsor">Become a Sponsor</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/volunteer">Volunteer</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
