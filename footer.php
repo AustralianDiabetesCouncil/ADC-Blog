@@ -48,6 +48,7 @@
 				<h3>Support Us</h3>
 				<div class="footer-menu">
 					<ul class="menu">
+						<li><a href="https://australiandiabetescouncil.wufoo.com/forms/w7x3k1/">Become a Member</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising.aspx">Donate Today</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/making-a-bequest">Leave a Bequest</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/fundraising/in-memory-donations">Give a Gift in Memory</a></li>
