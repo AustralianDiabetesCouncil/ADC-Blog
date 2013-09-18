@@ -95,9 +95,9 @@
 		<div id="copyright" class="col-left">
 			<p>© <?php echo date('Y'); ?>, Australian Diabetes Council. All rights reserved. ABN 84 001 363 766 - CFN 12458.</p>
 			<p class="conditions">
-				<a href="#">Terms and Conditions</a>
-				<a href="#">Privacy</a>
-				<a href="#">Sitemap</a>
+				<a href="http://www.australiandiabetescouncil.com/terms-and-conditions">Terms and Conditions</a>
+				<a href="http://www.australiandiabetescouncil.com/privacy">Privacy</a>
+				<a href="http://www.australiandiabetescouncil.com/site-map">Sitemap</a>
 			</p>
 		</div>
 
