@@ -100,7 +100,7 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 
 /* =============================== FROM OLD SHEET */
 body {
-  font: 300 13px/20px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font: 400 13px/20px "Helvetica Neue", Helvetica, Arial, Sans-serif;
   color: #555;
   background-color: #f7fbfd;
   -webkit-font-smoothing: antialiased; }
