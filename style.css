@@ -137,7 +137,7 @@ h6 {
 
 p {
   margin: 0;
-  font: 300 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: 400 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 strong {
   font-weight: bold; }
@@ -1314,7 +1314,7 @@ div.sharedaddy, #content div.sharedaddy, #main div.sharedaddy {
   margin: 0 0 1.8em 0;
   font: 1em/1em sans-serif;
   color: #999;
-  font: 300 12px/18px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: 400 12px/18px "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .post-meta .small {
   text-transform: lowercase; }
@@ -1372,7 +1372,7 @@ div.sharedaddy, #content div.sharedaddy, #main div.sharedaddy {
 .entry,
 .entry p {
   color: #555555;
-  font: 300 15px/1.5em "Helvetica Neue", Helvetica, sans-serif; }
+  font: 400 15px/1.5em "Helvetica Neue", Helvetica, sans-serif; }
 
 .entry p {
   margin-bottom: 1.2em; }
@@ -1474,7 +1474,7 @@ img.aligncenter {
 .entry .wp-caption-text {
   margin: 0 0 0.3em;
   padding: 0;
-  font: 300 12px/1.5em "Helvetica Neue", Helvetica, sans-serif;
+  font: 400 12px/1.5em "Helvetica Neue", Helvetica, sans-serif;
   text-align: center; }
 
 .entry .wp-caption a {
