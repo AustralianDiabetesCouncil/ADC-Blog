@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: ADC Blog 2
 Theme URI: http://www.australiandiabetescouncil.com/blog
 */
@@ -1227,6 +1227,13 @@ div.sharedaddy, #content div.sharedaddy, #main div.sharedaddy {
   .dietitians-note {
     width: 630px;
     float: left; } }
+
+.recipe-disclaimer {
+  clear: both; }
+  @media all and (min-width: 1410px) {
+    .recipe-disclaimer {
+      width: 630px;
+      float: left; } }
 
 .recipe-method ol {
   counter-reset: li;

@@ -88,6 +88,14 @@
 	}
 }
 
+.recipe-disclaimer {
+	clear: both;
+	@media all and (min-width: 1410px) {
+		width: 630px;
+		float: left;
+	}
+}
+
 .recipe-method ol {
     counter-reset:li;
     margin-left:0;
