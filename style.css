@@ -1676,8 +1676,8 @@ img.aligncenter {
         height: 162px;
         width: 120px;
         background-color: transparent;
-        background-image: url(images/logo-desktop-120.png);
-        background-position: center; } }
+        background-image: url(images/logo-desktop.png);
+        background-position: center top; } }
     @media all and (max-width: 767px) {
       .logo a {
         margin: 0 auto; } }
