@@ -27,6 +27,7 @@
 						<li><a href="http://www.australiandiabetescouncil.com/about/our-vision,-mission-and-values">Vision, Mission and Values</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/our-board-and-committees">Executive Team, Board, and Committees</a></li>
 						<li><a href="http://www.australiandiabetescouncil.com/about/annual-reports">Annual Reports</a></li>
+						<li><a href="http://www.australiandiabetescouncil.com/careers">Careers</a></li>
 					</ul>
 				</div>
 			</div><!-- footer-widget-block -->
