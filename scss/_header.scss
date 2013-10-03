@@ -414,6 +414,7 @@ form {
 	position: relative;
 	z-index: 1;
 	@include transition(all 0.3s ease);
+	overflow: hidden;
 
 	&:after {
 		clear: both;

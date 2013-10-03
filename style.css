@@ -1967,7 +1967,8 @@ form {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  overflow: hidden; }
   .main-nav-wrap:after {
     clear: both;
     content: '';
