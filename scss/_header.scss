@@ -409,11 +409,11 @@ form {
 }
 
 .main-nav-wrap {
+	overflow: hidden;
 	background: #0088B2;
 	position: relative;
 	z-index: 1;
 	@include transition(all 0.3s ease);
-	overflow: hidden;
 
 	&:after {
 		clear: both;

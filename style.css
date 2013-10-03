@@ -1961,14 +1961,14 @@ form {
       float: right; } }
 
 .main-nav-wrap {
+  overflow: hidden;
   background: #0088B2;
   position: relative;
   z-index: 1;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  overflow: hidden; }
+  transition: all 0.3s ease; }
   .main-nav-wrap:after {
     clear: both;
     content: '';
